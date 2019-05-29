@@ -1,5 +1,5 @@
 # blue011consume
-Example of consuming revertible DASH address. This consumes BLUE011 type of messages.
+Example of consuming revertible DASH address. This withdraws funds from revertible address by using "Message and PIN".
 
 The wallet address into which DASH coin is deposited is mentioned in below line of ./blue011consumemessage5.json file.
 
