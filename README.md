@@ -51,3 +51,16 @@ curl -X POST -H "Content-Type: application/json" -H "Authorization: ApiKey eyJhb
 
 
 ```
+
+## To check balance in address use below example
+
+https://testnet-insight.dashevo.org/insight-api/addr/8pUwBaHuj76YYg5aLHRU3f2XnaPnoiHj6n
+
+``` bash
+{"addrStr":"8pUwBaHuj76YYg5aLHRU3f2XnaPnoiHj6n","balance":0,"balanceSat":0,"totalReceived":0,"totalReceivedSat":0,"totalSent":0,"totalSentSa
+t":0,"unconfirmedBalance":0,"unconfirmedBalanceSat":0,"unconfirmedTxApperances":0,"unconfirmedAppearances":0,"txApperances":0,"txAppearan
+ces":0,"transactions":[]}
+
+```
+       
+
