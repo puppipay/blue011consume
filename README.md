@@ -90,7 +90,7 @@ The Locking-message is
  "address": "92wN1HFM2qmarbxwN25EeeTC4iiF1dZzcx",
  
    ``` 
-## Get your testnet wallet address. 
+## Get your DASH testnet wallet address. 
 
 This is needed to receive funds from reveritible-address.
 
@@ -98,7 +98,7 @@ In below image, the testnet address is created in https://testnet1.puppipay.com/
 
 <img src="workingimages/walletadd.png" alt="alt text" width="400">
 
-The wallet address is yVdmyRn9WKBdyK71JUPWzX2Q2aRpHqs8dz
+The DASH testent wallet address is yVdmyRn9WKBdyK71JUPWzX2Q2aRpHqs8dz
 
 ## Download consume script to receive funds from DASH revertible-address
 
