@@ -1,7 +1,9 @@
 # blue011consume
-Example of consuming revertible DASH address. This withdraws funds from revertible address by using "Message and PIN".
+Example of receiving (consuming) funds from DASH revertible-address. It takes input of "Locking-Message and PIN". It also needs target address (optional) to direct funds to target address.
 
-The wallet address into which DASH coin is deposited is mentioned in below line of ./blue011consumemessage5.json file.
+If target address is not specified, the funds get deposited with account holder. (Not shown in example)
+
+In the example provided, the wallet address into which DASH coin is deposited is mentioned in below line of ./blue011consumemessage5.json file.
 
 ``` bash
 
@@ -11,7 +13,7 @@ The wallet address into which DASH coin is deposited is mentioned in below line 
 
 This example uses testnet.
 
-To get access to use this. Contact puppipay team (puppipay01@gmail.com).
+To get individual-access. Contact puppipay team (puppipay01@gmail.com).
 
 ## Content of ./blue011consumemessage5.sh
 
@@ -98,13 +100,13 @@ In below image, the testnet address is created in https://testnet1.puppipay.com/
 
 The wallet address is yVdmyRn9WKBdyK71JUPWzX2Q2aRpHqs8dz
 
-## Download consume script and receive funds from DASH revertible-address
+## Download consume script to receive funds from DASH revertible-address
 
 <img src="workingimages/redeemscriptget.png" alt="alt text" width="400">
 
-## Update blue011consumemessage5.json target field 
+## Update target field in blue011consumemessage5.json 
 
-The target fields should have the "wallet address" into which the funds should be deposited, when fund is received
+The target fields should have the "wallet address" into which the funds should be deposited, when fund is received from DASH revertible-address.
 
 <img src="workingimages/updatetarget.png" alt="alt text" width="400">
 
@@ -113,7 +115,7 @@ The target fields should have the "wallet address" into which the funds should b
 
 <img src="workingimages/consumedanddisplayed.png" alt="alt text" width="400">
 
-Observer fund is received in above image
+On the left image see the command is executed. It shows fromaddress, toaddress. On Right side of image you see fund received in wallet.
 
 ## Reverting feature 
 
