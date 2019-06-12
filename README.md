@@ -94,7 +94,7 @@ This is needed to receive funds from reveritible-address.
 
 In below image, the testnet address is created in https://testnet1.puppipay.com/#/WelcomePage
 
-<img src="workingimages/wallet.png" alt="alt text" width="400">
+<img src="workingimages/walletadd.png" alt="alt text" width="400">
 
 The wallet address is yVdmyRn9WKBdyK71JUPWzX2Q2aRpHqs8dz
 
