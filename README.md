@@ -62,5 +62,64 @@ t":0,"unconfirmedBalance":0,"unconfirmedBalanceSat":0,"unconfirmedTxApperances":
 ces":0,"transactions":[]}
 
 ```
+# Images of steps to receive fund
+
+## Assume you have received Locking-message and PIN as follows
+
+
+The Locking-message is 
+ ``` bash
+ 
+ "message":  "eyJjcmMiOiIyMGUwNjEiLCJ1aWQiOiIwMjEyOGM1OTAzMDNkMTMwZTFmZWMxZWQyNDUzMjE3MGE5OThkOGIxNGYyZWNjNDRiOWY5OTE4MjIyMWVhZGM0MjQiLCJwaW5kYXRhIjp7ImlkIjoiVEVTMTU1NTc1Nzg5NTE2NiIsImRhdGUiOiIxNTYwMjIwNDgyMjIxIiwicGluIjoiIn19"
+ 
+ ``` 
+ 
+ The PIN to unlock is
+ ``` bash
+ 
+  "pin": "PIN_6HGPPNB21",
+  
+  ``` 
+  
+  The DASH revertible-address having fund is
+ 
+ ``` bash
+ 
+ "address": "92wN1HFM2qmarbxwN25EeeTC4iiF1dZzcx",
+ 
+   ``` 
+## Get your testnet wallet address. 
+
+This is needed to receive funds from reveritible-address.
+
+In below image, the testnet address is created in https://testnet1.puppipay.com/#/WelcomePage
+
+<img src="workingimages/wallet.png" alt="alt text" width="400">
+
+The wallet address is yVdmyRn9WKBdyK71JUPWzX2Q2aRpHqs8dz
+
+## Download consume script and receive funds from DASH revertible-address
+
+<img src="workingimages/redeemscriptget.png" alt="alt text" width="400">
+
+## Update blue011consumemessage5.json target field 
+
+The target fields should have the "wallet address" into which the funds should be deposited, when fund is received
+
+<img src="workingimages/updatetarget.png" alt="alt text" width="400">
+
+
+## Execute the blue011consumemessage5.sh to receive fund
+
+<img src="workingimages/consumedanddisplayed.png" alt="alt text" width="400">
+
+Observer fund is received in above image
+
+## Reverting feature 
+
+While updating blue011consumemessage5.json, if the target field specifies your wallet(sender), the funds return back to your wallet address.
+
+``` 
+
        
 
