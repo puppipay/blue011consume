@@ -3,6 +3,10 @@ Example of receiving (consuming) funds from DASH revertible-address. It takes in
 
 If target address is not specified, the funds get deposited with account holder. (Not shown in example)
 
+
+
+
+
 In the example provided, the wallet address into which DASH coin is deposited is mentioned in below line of ./blue011consumemessage5.json file.
 
 ``` bash
@@ -14,6 +18,11 @@ In the example provided, the wallet address into which DASH coin is deposited is
 This example uses testnet.
 
 To get individual-access. Contact puppipay team (puppipay01@gmail.com).
+
+## Getting started video
+
+[![Accept funds from revertible address](https://img.youtube.com/vi/tYHjtpm9lqY/0.jpg)](https://www.youtube.com/watch?v=tYHjtpm9lqY "Accept funds from revertible address")
+
 
 ## Content of ./blue011consumemessage5.sh
 
