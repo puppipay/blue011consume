@@ -21,7 +21,9 @@ To get individual-access. Contact puppipay team (puppipay01@gmail.com).
 
 ## Getting started video
 
-[![Accept funds from revertible address](https://img.youtube.com/vi/tYHjtpm9lqY/0.jpg)](https://www.youtube.com/watch?v=tYHjtpm9lqY "Accept funds from revertible address")
+[![Accept funds from revertible address](https://img.youtube.com/vi/389DrNuP9Nc/0.jpg)](https://www.youtube.com/watch?v=389DrNuP9Nc "Accept funds from revertible address")
+
+
 
 
 ## Content of ./blue011consumemessage5.sh
